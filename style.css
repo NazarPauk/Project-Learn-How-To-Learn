@@ -19,6 +19,7 @@ body{
     max-height: 756px;
     /* parameters for the header section */
     display: flex;
+    position: relative;
 }
 
 .header__title{
@@ -60,7 +61,7 @@ body{
     background-color: #2f80ed;
     z-index: 1;
     right: 0;
-    margin-top: 64px;
+    top: 64px;
     position: absolute;
 }
 
@@ -81,6 +82,7 @@ body{
     line-height: 1.2;
     font-size: 18px;
     color: #2f80ed;
+    margin: 0;
 }
 
 .two-columns__main-text{
@@ -92,13 +94,15 @@ body{
 }
 
 .two-columns__paragraph{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+
 }
 
 .two-columns__span-accent{
     line-height: 34px;
-    font-size: 24px;
     font-weight: 600;
+    font-size: 24px;
 }
 
 .kaufman{
@@ -121,6 +125,8 @@ body{
     justify-content: space-between;
     margin: 0 auto 0 auto;
     z-index: 3;
+    list-style: none;
+    padding-inline-start: 0;
 }
 
 .table__cell{
@@ -181,12 +187,14 @@ footer{
     background-color: #1f1f1f;
     display: flex;
     justify-content: center;
+    padding: 60px 0 40px;
+
 
 
 }
 
-.selection__author{
-    margin: 60px 0 40px;
+.footer__author{
+    margin: 0;
     padding: 18px 0 18px;
     width: 90%;
     color: white;
