@@ -131,7 +131,7 @@ body{
 
 .table__cell{
     width: 200px;
-    margin:80px 0 80px 0;
+    padding:80px 0 px 0;
     color: white;
 
 }
@@ -178,12 +178,12 @@ body{
     width: 660px;
     height: 636px;
     z-index: 1 ;
-    rotate: 35deg;
+    transform: rotate(35deg);
     right: -8%;
     margin-bottom: 25%;
 }
 
-footer{
+.footer{
     background-color: #1f1f1f;
     display: flex;
     justify-content: center;
@@ -199,6 +199,5 @@ footer{
     width: 90%;
     color: white;
     font-family:'Helvetica Neue', 'Arial', sans-serif;
-
 }
 
